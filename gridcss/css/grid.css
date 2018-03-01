@@ -1,0 +1,16 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  width: 1060px;
+  margin: 0 auto;
+}
+
+.container{
+  padding-right: 20px;
+}
+
+.row {
+  clear: both;
+}

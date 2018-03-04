@@ -3,7 +3,7 @@
 }
 
 body{
-  width: 1060px;
+  width: 1200px;
   margin: 0 auto;
 }
 
@@ -13,4 +13,44 @@ body{
 
 .row {
   clear: both;
+}
+
+.col{
+  background: rgb(255,150,150);
+  float: left;
+  margin-left: 20px;
+  width: 75px
+}
+.col.span2{
+  width: 170px;
+}
+.col.span3{
+  width: 265px;
+}
+.col.span4{
+  width: 360px;
+}
+.col.span5{
+  width: 455px;
+}
+.col.span6{
+  width: 550px;
+}
+.col.span7{
+  width: 645px;
+}
+.col.span8{
+  width: 740px;
+}
+.col.span9{
+  width: 815px;
+}
+.col.span10{
+  width: 910px;
+}
+.col.span11{
+  width: 1005px;
+}
+.col.span12{
+  width: 1200px;
 }

@@ -1,14 +1,29 @@
+@import './normalize.css';
+
 * {
   box-sizing: border-box;
 }
-
+/* 
 body{
-  width: 1200px;
+  width: 90%;
+  max-width: 1200px;
   margin: 0 auto;
-}
+} */
 
 .container{
-  padding-right: 20px;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-right: 2.08333333%;
+}
+
+.container-fluid{
+  position: relative;
+  width: 100%;
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0 2.08333333%;
+
 }
 
 .row {
@@ -18,39 +33,77 @@ body{
 .col{
   background: rgb(255,150,150);
   float: left;
-  margin-left: 20px;
-  width: 75px
+  margin-left: 2.08333333%;
+  width: 6.25%
 }
 .col.span2{
-  width: 170px;
+  width: calc((6.25% * 2) + 2.08333333% );
 }
 .col.span3{
-  width: 265px;
+  width: calc((6.25% * 3) + 2.08333333% * 2 );
 }
 .col.span4{
-  width: 360px;
+  width: calc((6.25% * 4) + 2.08333333% * 3 );
 }
 .col.span5{
-  width: 455px;
+  width: calc((6.25% * 5) + 2.08333333% * 4 );
 }
 .col.span6{
-  width: 550px;
+  width: calc((6.25% * 6) + 2.08333333% * 5 );
 }
 .col.span7{
-  width: 645px;
+  width: calc((6.25% * 7) + 2.08333333% * 6 );
 }
 .col.span8{
-  width: 740px;
+  width: calc((6.25% * 8) + 2.08333333% * 7 );
 }
 .col.span9{
-  width: 815px;
+  width: calc((6.25% * 9) + 2.08333333% * 8 );
 }
 .col.span10{
-  width: 910px;
+  width: calc((6.25% * 10) + 2.08333333% * 9 );
 }
 .col.span11{
-  width: 1005px;
+  width: calc((6.25% * 11) + 2.08333333% * 10 );
 }
 .col.span12{
-  width: 1200px;
+  width: calc((6.25% * 12) + 2.08333333% * 11 );
+}
+
+/*
+*** offset ***
+*/
+
+.offset-1{
+  margin-left: calc(6.25% + (2.08333333% * 2 ));
+}
+.offset-2{
+    margin-left: calc((6.25% * 2) + 2.08333333% * 3 );
+}
+.offset-3{
+  margin-left: calc((6.25% * 3) + 2.08333333% * 4 );
+}
+.offset-4{
+  margin-left: calc((6.25% * 4) + 2.08333333% * 5 );
+}
+.offset-5{
+  margin-left: calc((6.25% * 5) + 2.08333333% * 6 );
+}
+.offset-6{
+  margin-left: calc((6.25% * 6) + 2.08333333% * 7 );
+}
+.offset-7{
+  margin-left: calc((6.25% * 7) + 2.08333333% * 8 );
+}
+.offset-8{
+  margin-left: calc((6.25% * 8) + 2.08333333% * 9 );
+}
+.offset-9{
+  margin-left: calc((6.25% * 9) + 2.08333333% * 10 );
+}
+.offset-10{
+  margin-left: calc((6.25% * 10) + 2.08333333% * 11 );
+}
+.offset-11{
+  margin-left: calc((6.25% * 11) + 2.08333333% * 12 );
 }

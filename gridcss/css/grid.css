@@ -34,41 +34,205 @@ body{
   background: rgb(255,150,150);
   float: left;
   margin-left: 2.08333333%;
+}
+.xs1{
   width: 6.25%
 }
-.col.span2{
+.xs2{
   width: calc((6.25% * 2) + 2.08333333% );
 }
-.col.span3{
+.xs3{
   width: calc((6.25% * 3) + 2.08333333% * 2 );
 }
-.col.span4{
+.xs4{
   width: calc((6.25% * 4) + 2.08333333% * 3 );
 }
-.col.span5{
+.xs5{
   width: calc((6.25% * 5) + 2.08333333% * 4 );
 }
-.col.span6{
+.xs6{
   width: calc((6.25% * 6) + 2.08333333% * 5 );
 }
-.col.span7{
+.xs7{
   width: calc((6.25% * 7) + 2.08333333% * 6 );
 }
-.col.span8{
+.xs8{
   width: calc((6.25% * 8) + 2.08333333% * 7 );
 }
-.col.span9{
+.xs9{
   width: calc((6.25% * 9) + 2.08333333% * 8 );
 }
-.col.span10{
+.xs10{
   width: calc((6.25% * 10) + 2.08333333% * 9 );
 }
-.col.span11{
+.xs11{
   width: calc((6.25% * 11) + 2.08333333% * 10 );
 }
-.col.span12{
+.xs12{
   width: calc((6.25% * 12) + 2.08333333% * 11 );
 }
+
+/* smartphones */
+  @media (min-width: 544px) {
+    .sm1{
+      width: 6.25%
+    }
+    .sm2{
+      width: calc((6.25% * 2) + 2.08333333% );
+    }
+    .sm3{
+      width: calc((6.25% * 3) + 2.08333333% * 2 );
+    }
+    .sm4{
+      width: calc((6.25% * 4) + 2.08333333% * 3 );
+    }
+    .sm5{
+      width: calc((6.25% * 5) + 2.08333333% * 4 );
+    }
+    .sm6{
+      width: calc((6.25% * 6) + 2.08333333% * 5 );
+    }
+    .sm7{
+      width: calc((6.25% * 7) + 2.08333333% * 6 );
+    }
+    .sm8{
+      width: calc((6.25% * 8) + 2.08333333% * 7 );
+    }
+    .sm9{
+      width: calc((6.25% * 9) + 2.08333333% * 8 );
+    }
+    .sm10{
+      width: calc((6.25% * 10) + 2.08333333% * 9 );
+    }
+    .sm11{
+      width: calc((6.25% * 11) + 2.08333333% * 10 );
+    }
+    .sm12{
+      width: calc((6.25% * 12) + 2.08333333% * 11 );
+    } 
+  }
+   
+  /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+  @media (min-width: 768px) {
+    .tb1{
+      width: 6.25%
+    }
+    .tb2{
+      width: calc((6.25% * 2) + 2.08333333% );
+    }
+    .tb3{
+      width: calc((6.25% * 3) + 2.08333333% * 2 );
+    }
+    .tb4{
+      width: calc((6.25% * 4) + 2.08333333% * 3 );
+    }
+    .tb5{
+      width: calc((6.25% * 5) + 2.08333333% * 4 );
+    }
+    .tb6{
+      width: calc((6.25% * 6) + 2.08333333% * 5 );
+    }
+    .tb7{
+      width: calc((6.25% * 7) + 2.08333333% * 6 );
+    }
+    .tb8{
+      width: calc((6.25% * 8) + 2.08333333% * 7 );
+    }
+    .tb9{
+      width: calc((6.25% * 9) + 2.08333333% * 8 );
+    }
+    .tb10{
+      width: calc((6.25% * 10) + 2.08333333% * 9 );
+    }
+    .tb11{
+      width: calc((6.25% * 11) + 2.08333333% * 10 );
+    }
+    .tb12{
+      width: calc((6.25% * 12) + 2.08333333% * 11 );
+    } 
+  }
+   
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) { 
+
+    .md1{
+      width: 6.25%
+    }
+    .md2{
+      width: calc((6.25% * 2) + 2.08333333% );
+    }
+    .md3{
+      width: calc((6.25% * 3) + 2.08333333% * 2 );
+    }
+    .md4{
+      width: calc((6.25% * 4) + 2.08333333% * 3 );
+    }
+    .md5{
+      width: calc((6.25% * 5) + 2.08333333% * 4 );
+    }
+    .md6{
+      width: calc((6.25% * 6) + 2.08333333% * 5 );
+    }
+    .md7{
+      width: calc((6.25% * 7) + 2.08333333% * 6 );
+    }
+    .md8{
+      width: calc((6.25% * 8) + 2.08333333% * 7 );
+    }
+    .md9{
+      width: calc((6.25% * 9) + 2.08333333% * 8 );
+    }
+    .md10{
+      width: calc((6.25% * 10) + 2.08333333% * 9 );
+    }
+    .md11{
+      width: calc((6.25% * 11) + 2.08333333% * 10 );
+    }
+    .md12{
+      width: calc((6.25% * 12) + 2.08333333% * 11 );
+    }
+  }
+   
+  /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) { 
+    .lg1{
+      width: 6.25%
+    }
+    .lg2{
+      width: calc((6.25% * 2) + 2.08333333% );
+    }
+    .lg3{
+      width: calc((6.25% * 3) + 2.08333333% * 2 );
+    }
+    .lg4{
+      width: calc((6.25% * 4) + 2.08333333% * 3 );
+    }
+    .lg5{
+      width: calc((6.25% * 5) + 2.08333333% * 4 );
+    }
+    .lg6{
+      width: calc((6.25% * 6) + 2.08333333% * 5 );
+    }
+    .lg7{
+      width: calc((6.25% * 7) + 2.08333333% * 6 );
+    }
+    .lg8{
+      width: calc((6.25% * 8) + 2.08333333% * 7 );
+    }
+    .lg9{
+      width: calc((6.25% * 9) + 2.08333333% * 8 );
+    }
+    .lg10{
+      width: calc((6.25% * 10) + 2.08333333% * 9 );
+    }
+    .lg11{
+      width: calc((6.25% * 11) + 2.08333333% * 10 );
+    }
+    .lg12{
+      width: calc((6.25% * 12) + 2.08333333% * 11 );
+    }
+  }
+  
 
 /*
 *** offset ***
